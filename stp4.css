@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#step-4 {
+  display: none;
+  width: 80%;
+}
+.selection-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+}
+.selection-container {
+  background-color: #1313c21f;
+  padding: 1rem;
+}
+.selected {
+  border: 2px solid #1313c2;
+  background-color: #1313c21f;
+}
+.selection-plan {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  color: #1313c2;
+}
+.selected-addon {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  color: #9c9494;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.selected-addon .service-price {
+  color: #1313c2;
+}
+.total {
+  padding: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #9c9494;
+}
+.total b {
+  color: #1313c2;
+  font-size: 1.2rem;
+}

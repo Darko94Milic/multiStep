@@ -1,0 +1,41 @@
+/* Form step 1 */
+
+#step-1 {
+  display: flex;
+  width: 90%;
+}
+#step-1 form {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: center;
+  width: 25rem;
+  gap: 1rem;
+}
+.label {
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#step-1 form input {
+  height: 2.5rem;
+  padding: 1rem;
+  border: 1px solid #a59999;
+  border-radius: 7px;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+#step-1 form input:focus {
+  outline-color: #1313c2;
+}
+form input::placeholder {
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+.form .error {
+  display: none;
+  color: #ef0606;
+  font-size: 0.9rem;
+  font-weight: 900;
+}
